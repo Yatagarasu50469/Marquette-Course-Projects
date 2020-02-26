@@ -1,0 +1,452 @@
+.data
+Y1:		.space 52		#array 
+x:		.space 52		#array x
+lenY1:		.space 4 		#static int lenY1
+space:		.asciiz " "		#space character
+newline:	.asciiz "\n"		#newline character
+.text
+.globl main
+main:				#main start line
+addi $t9, $zero, 13		#add a new value into saved temporary register
+sw $t9, lenY1($zero)		#add lenY1 value to its variable value
+addi $s0, $zero, 13		#add a new value into saved temporary register
+addi $s1, $zero, 101		#add a new value into saved temporary register
+addi $s2, $zero, 79		#add a new value into saved temporary register
+addi $s3, $zero, 23		#add a new value into saved temporary register
+addi $s4, $zero, 154		#add a new value into saved temporary register
+addi $s5, $zero, 4		#add a new value into saved temporary register
+addi $s6, $zero, 11		#add a new value into saved temporary register
+addi $s7, $zero, 38		#add a new value into saved temporary register
+add $t0, $zero, $zero		#clear register for array index
+sw $s0, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s1, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s2, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s3, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s4, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s5, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s6, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s7, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+addi $s0, $zero, 89		#add a new value into saved temporary register
+addi $s1, $zero, 45		#add a new value into saved temporary register
+addi $s2, $zero, 17		#add a new value into saved temporary register
+addi $s3, $zero, 94		#add a new value into saved temporary register
+addi $s4, $zero, 62		#add a new value into saved temporary register
+sw $s0, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s1, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s2, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s3, Y1($t0) 		#store the value from the saved register into the array at the index location
+addi $t0, $t0, 4		#go to the next array location
+sw $s4, Y1($t0) 		#store the value from the saved register into the array at the index location
+START:				#executable program
+add $s0, $zero, $zero		#clear register for left variable
+add $s1, $zero, $zero 		#clear register for middle variable
+add $s2, $zero, $zero		#clear register for right variable
+add $s2, $zero, $t9		#load value of lenY1 into right ($s2)
+addi $s2, $s2, -1		#decrement right ($s2) by 1
+add $t1, $zero, $zero		#clear $t1 register for use as temporary index
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, Y1($t1)			#load value from the indexed location of the Y1 array
+sw $t6, x($t1)			#transfer the loaded value into the equivalently indexed x array location
+add $t6, $zero, $zero		#clear $t6 register
+add $t9, $zero, $zero		#clear $t9 register 
+addi $t9, $sp, -80		#increment by 20 spaces and store in $t9 as second stack pointer
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORT			#jump to mergesort
+add $t1, $zero, $zero		#upon return clear $t1 register for use as temporary index
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+lw $t6, x($t1)			#load value from the indexed location of the x array
+sw $t6, Y1($t1)			#transfer the loaded value into the equivalently indexed Y1 array location
+addi $t1, $t1, 4		#increment the index by 1
+add $t6, $zero, $zero		#clear $t6 register
+add $t1, $zero, $zero		#clear $t1 register
+add $t0, $zero, $zero 		#set i = 0
+FORASTART:			#start of the FORA loop
+add $t1, $zero, $zero		#clear $t1
+lw $t1, lenY1($zero)		#load lenY1 into $t1
+add $t2, $zero, $t1		#create a temporary clone of the index value
+add $t1, $t1, $t2		#add the cloned index into the index 
+add $t1, $t1, $t2		#add the cloned index into the index 
+add $t1, $t1, $t2		#add the cloned index into the index 
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $t0, $t1		#if i is less than $t1 set flag $t7 to 1
+beq $t7, $zero, FORASTOP	#if flag is equal to zero, branch to FORASTOP
+add $t1, $zero, $zero
+lw $t1, x($t0)			#load the i value from the Y1 array into $t1
+li $v0, 1			#set system code to print value
+add $a0, $zero, $t1		#load the i value from the Y1 array into $a0
+syscall				#call system to follow instruction
+li $v0, 4			#set system code to print value
+la $a0, space			# load space character
+syscall				#call system to follow instruction
+addi $t0, $t0, 4		#increment i by 1
+j FORASTART			#jump back to FORASTART 
+FORASTOP: 			#door out of FORA loop
+li $v0, 4			#set system code to print value
+la $a0, newline			# load newline character
+syscall				#call system to follow instruction
+j EXIT				#leave program
+MERGESORT:
+sw $s0, 0($sp)			#add left onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s1, 0($sp)			#add middle onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s2, 0($sp)			#add right onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+add $s1, $zero, $zero		#set middle to zero
+add $t6, $zero, $zero		#clear $t6 register
+add $t1, $zero, $zero		#clear $t1 register
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $s0, $s2		#if left is less than right set flag to 1
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t6, $t7, ELSEA		#if flag is 1 than branch to ELSEA
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+addi $t9, $t9, 4		#decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+jr $ra	 			#jump to the return address
+ELSEA:
+sub $t5, $s2, $s0		#subtract left register from right and store in temp reg
+addi $t5, $t5, 1		#increment temporary register by 1 and store in temporary register
+srl $t5, $t5, 1			#shift temporary register, right by 1
+add $s1, $t5, $s0		#add left to temporary register and store in middle
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTB			#recursive call to Mergesort
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTC			#second recursive call to Mergesort
+jal MERGE			#jump to merge and link to the next line
+addi $t9, $t9, 4		#upon return decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+jr $ra				#jump to the return address
+MERGESORTB:
+sw $s0, 0($sp)			#add left onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s1, 0($sp)			#add middle onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s2, 0($sp)			#add right onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+addi $s2, $s1, -1 		#set right equal to middle -1
+add $s1, $zero, $zero		#set middle to zero
+add $t6, $zero, $zero		#clear $t6 register
+add $t1, $zero, $zero		#clear $t1 register
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $s0, $s2		#if left is less than right set flag to 1
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t6, $t7, ELSEB		#if flag is 1 than branch to ELSEB
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+addi $t9, $t9, 4		#decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+jr $ra	 			#jump to the return address
+ELSEB:
+sub $t5, $s2, $s0		#subtract left register from right and store in temp reg
+addi $t5, $t5, 1		#increment temporary register by 1 and store in temporary register
+srl $t5, $t5, 1			#shift temporary register, right by 1
+add $s1, $t5, $s0		#add left to temporary register and store in middle
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTB			#recursive call to Mergesort
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTC			#second recursive call to Mergesort
+jal MERGE			#jump to merge and link to the next line
+addi $t9, $t9, 4		#upon return decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+jr $ra				#jump to the return address
+MERGESORTC:
+sw $s0, 0($sp)			#add left onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s1, 0($sp)			#add middle onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+sw $s2, 0($sp)			#add right onto the stack
+addi $sp, $sp, -4		#increment the stack pointer
+add $s0, $zero, $s1		#set left equal to middle
+add $s1, $zero, $zero		#set middle to zero
+add $t6, $zero, $zero		#clear $t6 register
+add $t1, $zero, $zero		#clear $t1 register
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $s0, $s2		#if left is less than right set flag to 1
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t6, $t7, ELSEC		#if flag is 1 than branch to ELSEC
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+addi $t9, $t9, 4		#decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+jr $ra	 			#jump to the return address
+ELSEC:
+sub $t5, $s2, $s0		#subtract left register from right and store in temp reg
+addi $t5, $t5, 1		#increment temporary register by 1 and store in temporary register
+srl $t5, $t5, 1			#shift temporary register, right by 1
+add $s1, $t5, $s0		#add left to temporary register and store in middle
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTB			#recursive call to Mergesort
+jal NEXTLINE			#jump to Nextline to save new return address
+addi $ra, $ra, 16		#upon return add 16 to the return address for the line after the first mergesort call
+sw $ra, 0($t9)			#store the return address at the secondary stack pointer location
+addi $t9, $t9, -4		#increment the second stack pointer
+jal MERGESORTC			#second recursive call to Mergesort
+jal MERGE			#jump to merge and link to the next line
+addi $t9, $t9, 4		#upon return decrement the second stack pointer
+lw $ra, 0($t9)			#retrieve the last stored return address
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s2, 0($sp)			#load right from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s1, 0($sp)			#load middle from the stack
+addi $sp, $sp, 4		#decrement the stack pointer
+lw $s0, 0($sp)			#load left from the stack
+jr $ra				#jump to the return address
+MERGE:				#merge method
+add $s3, $zero, $zero 		#clear register for liftind variable
+add $s4, $zero, $zero 		#clear register for rightind variable
+add $s5, $zero, $zero 		#clear register for endleft variable
+add $s6, $zero, $zero 		#clear register for endright variable
+add $s7, $zero, $zero 		#clear register for temp variable
+add $t0, $zero, $zero 		#clear register for i variable
+add $s3, $zero, $s0		#set left ($s0) into leftind ($s3)
+add $s4, $zero, $s1		#set middle ($s1) into rightind ($s4)
+addi $s5, $s1, -1		#decrement middle ($s1) by 1 and store in endleft ($s5)
+add $s6, $zero, $s2		#set right ($s2) into endright ($s6)
+
+WHLEASTART:
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $s3, $s5		#if leftind ($s3) is less than endleft ($s5) set flag to 1
+add $t6, $zero, $zero		#clear $t6
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t7, $t6, NEXTA		#if flag ($t7) is set to 1 branch NEXTA
+beq $s3, $s5, NEXTA		#if leftind ($s3) is equal to endleft ($s5) then branch NEXTA
+j WHLEASTOP			#otherwise jump to WHLEASTOP
+NEXTA:
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $s4, $s6		#if rightind ($s4) is less than endright ($s6)
+add $t6, $zero, $zero		#clear $t6
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t7, $t6, NEXTB		#if flag ($t7) is set to 1 branch NEXTB
+beq $s4, $s6, NEXTB		#if rightind ($s4) is equal to endright ($s6) branch NEXTB
+j WHLEASTOP			#otherwise jump to WHLEASTOP
+NEXTB:
+add $t8, $zero, $zero		#clear $t8
+add $t8, $zero, $s3		#add liftind base index value to $t8
+add $t2, $zero, $t8		#create a temporary clone of the index value
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+lw $t4, x($t8)			#load value from x at leftind index ($t8) into temporary register $t4
+add $t6, $zero, $zero		#clear $t6
+add $t8, $zero, $zero		#clear $t8
+add $t8, $zero, $s4		#add rightind base index value to $t8
+add $t2, $zero, $t8		#create a temporary clone of the index value
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+lw $t6, x($t8)			#load value from x at rightind ($s4) into temporary register $t6
+add $t8, $zero, $zero		#clear $t8
+add $t7, $zero, $zero		#clear the flag register
+slt $t7, $t4, $t6		#set flag to 1 if $4 is less than $6
+beq $t7, $zero, CONTA 		#if equal continue
+j NEXTC				#branch out
+CONTA:
+beq $t4, $t6, NEXTC		#if $t4 is equal to $t6 branch to NEXTC
+j ELSED				#jump to ELSED
+NEXTC:
+addi $s3, $s3, 1 		#increment leftind by 1
+j ELSEDOUT			#exit the if statement skipping else
+ELSED:
+add $t8, $zero, $zero		#clear $t8
+add $t8, $zero, $s4		#add rightind base index value to $t8
+add $t2, $zero, $t8		#create a temporary clone of the index value
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+lw $s7 x($t8)			#load value from x at rightind index ($t8) into temp variable
+add $t0, $zero, $s4		# set i equal to rightind
+addi $t0, $t0, -1		#decrement i by 1 and store in i
+FORBSTART:
+add $t7, $zero, $zero		#clear flag $t7 before checking a condition
+slt $t7, $t0, $s3		#if i is less than leftind set flag to 1
+add $t6, $zero, $zero		#clear $t6
+addi $t6, $zero, 1		#set $t6 to 1
+beq $t7, $t6, FORBSTOP		#branch to FORBSTOP if flag is equal to 1
+add $t4, $zero, $zero		#clear temporary register $t4
+add $t4, $t4, $t0		#add i base index value to $t4
+addi $t4, $t0, 1		#set temporary register $t4 as i+1
+add $t2, $zero, $t4		#create a temporary clone of the index value
+add $t4, $t4, $t2		#add the cloned index into the index 
+add $t4, $t4, $t2		#add the cloned index into the index 
+add $t4, $t4, $t2		#add the cloned index into the index 
+add $t8, $zero, $zero		#clear $t8
+add $t8, $zero, $t0		#add i base index value to $t8
+add $t2, $zero, $t8		#create a temporary clone of the index value
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+lw $t8, x($t8)			#load the value of x[i] into $t8
+sw $t8, x($t4)			#store the value of x[i] into x[i+1]
+addi $t0, $t0, -1		#decrement i by 1
+j FORBSTART			#jump to FORBSTART
+FORBSTOP:			#door out of FORB loop
+add $t8, $zero, $zero		#clear $t8
+add $t8, $zero, $s3		#add liftind base index value to $t8
+add $t2, $zero, $t8		#create a temporary clone of the index value
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+add $t8, $t8, $t2		#add the cloned index into the index 
+sw $s7, x($t8) 			#store the value of temp into the indexed value ($t8) of leftind
+addi $s3, $s3, 1		#increment leftind ($s3) by 1
+addi $s5, $s5, 1		#increment endleft ($s5) by 1
+addi $s4, $s4, 1		#increment rightind ($s4) by 1
+j ELSEDOUT			#exit the else statement
+ELSEDOUT:			#door out of ELSED loop
+j WHLEASTART			#jump to WHLEASTART
+WHLEASTOP:			#door out of WHILE A loop
+jr $ra				#jump back to $ra
+EXIT: 				#door out of START program
+li $v0, 10 			#termination system instruction
+syscall				#call system to follow instructions
+NEXTLINE:
+jr $ra				#return to nextline
