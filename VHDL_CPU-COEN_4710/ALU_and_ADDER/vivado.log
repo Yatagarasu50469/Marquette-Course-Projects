@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 07:24:03 2016
+# Process ID: 2580
+# Current directory: E:/COEN4710_PROJECT2/ALU_and_ADDER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5096 E:\COEN4710_PROJECT2\ALU_and_ADDER\ALU_and_ADDER.xpr
+# Log file: E:/COEN4710_PROJECT2/ALU_and_ADDER/vivado.log
+# Journal file: E:/COEN4710_PROJECT2/ALU_and_ADDER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 688.742 ; gain = 140.379
+set_property top TEST_TOP_LEVEL [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TEST_TOP_LEVEL' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj TEST_TOP_LEVEL_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_msb
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_normal
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_32bit
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TEST_TOP_LEVEL
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto bff4f492abe44009a3606ac3cdc5493a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TEST_TOP_LEVEL_behav xil_defaultlib.TEST_TOP_LEVEL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture arch_functional of entity xil_defaultlib.alu_normal [alu_normal_default]
+Compiling architecture arch_functional of entity xil_defaultlib.alu_msb [alu_msb_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_32bit [alu_32bit_default]
+Compiling architecture my_structure of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_top_level [alu_top_level_default]
+Compiling architecture my_test of entity xil_defaultlib.test_top_level
+Built simulation snapshot TEST_TOP_LEVEL_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xsim.dir/TEST_TOP_LEVEL_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 21 07:25:24 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TEST_TOP_LEVEL_behav -key {Behavioral:sim_1:Functional:TEST_TOP_LEVEL} -tclbatch {TEST_TOP_LEVEL.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source TEST_TOP_LEVEL.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TEST_TOP_LEVEL_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 727.516 ; gain = 20.703
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 07:25:51 2016...

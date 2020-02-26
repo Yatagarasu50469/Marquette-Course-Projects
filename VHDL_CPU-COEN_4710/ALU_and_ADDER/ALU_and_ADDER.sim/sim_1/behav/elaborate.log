@@ -1,0 +1,18 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto bff4f492abe44009a3606ac3cdc5493a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TEST_TOP_LEVEL_behav xil_defaultlib.TEST_TOP_LEVEL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture arch_functional of entity xil_defaultlib.alu_normal [alu_normal_default]
+Compiling architecture arch_functional of entity xil_defaultlib.alu_msb [alu_msb_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_32bit [alu_32bit_default]
+Compiling architecture my_structure of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_top_level [alu_top_level_default]
+Compiling architecture my_test of entity xil_defaultlib.test_top_level
+Built simulation snapshot TEST_TOP_LEVEL_behav

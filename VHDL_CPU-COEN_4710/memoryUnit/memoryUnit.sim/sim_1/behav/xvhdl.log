@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yatagarasu/memoryUnit/memoryUnit.srcs/sources_1/new/memoryUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity memoryUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yatagarasu/memoryUnit/memoryUnit.srcs/sim_1/new/memoryUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity memoryUnit_tb

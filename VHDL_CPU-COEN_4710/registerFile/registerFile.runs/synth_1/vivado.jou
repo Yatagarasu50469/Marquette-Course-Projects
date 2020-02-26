@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 03:55:12 2016
+# Process ID: 3664
+# Current directory: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1
+# Command line: vivado.exe -log fileRegister.vds -mode batch -messageDb vivado.pb -notrace -source fileRegister.tcl
+# Log file: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1/fileRegister.vds
+# Journal file: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fileRegister.tcl -notrace

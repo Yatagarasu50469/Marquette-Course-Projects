@@ -1,0 +1,272 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 07:15:42 2016
+# Process ID: 76000
+# Current directory: C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent63668 C:\Users\Ben\Desktop\HardwareProject2\ALU_and_ADDER\ALU_and_ADDER.xpr
+# Log file: C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/vivado.log
+# Journal file: C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 736.641 ; gain = 107.305
+set_property top TEST_TOP_LEVEL [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TEST_TOP_LEVEL' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj TEST_TOP_LEVEL_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_msb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_normal
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_32bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TEST_TOP_LEVEL
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto bff4f492abe44009a3606ac3cdc5493a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TEST_TOP_LEVEL_behav xil_defaultlib.TEST_TOP_LEVEL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture arch_functional of entity xil_defaultlib.alu_normal [alu_normal_default]
+Compiling architecture arch_functional of entity xil_defaultlib.alu_msb [alu_msb_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_32bit [alu_32bit_default]
+Compiling architecture my_structure of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture my_structure of entity xil_defaultlib.alu_top_level [alu_top_level_default]
+Compiling architecture my_test of entity xil_defaultlib.test_top_level
+Built simulation snapshot TEST_TOP_LEVEL_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xsim.dir/TEST_TOP_LEVEL_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 21 07:18:26 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TEST_TOP_LEVEL_behav -key {Behavioral:sim_1:Functional:TEST_TOP_LEVEL} -tclbatch {TEST_TOP_LEVEL.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source TEST_TOP_LEVEL.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 812.645 ; gain = 63.223
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TEST_TOP_LEVEL_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 812.645 ; gain = 63.223
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top TEST_ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch MY_TEST [get_filesets sim_1]
+set_property top_file C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TEST_ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj TEST_ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TEST_ALU
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto bff4f492abe44009a3606ac3cdc5493a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TEST_ALU_behav xil_defaultlib.TEST_ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture alu_dataflow of entity xil_defaultlib.alu [alu_default]
+Compiling architecture my_test of entity xil_defaultlib.test_alu
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot TEST_ALU_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xsim.dir/TEST_ALU_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 21 07:19:15 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TEST_ALU_behav -key {Behavioral:sim_1:Functional:TEST_ALU} -tclbatch {TEST_ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source TEST_ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TEST_ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 812.645 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top_file C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_tb.vhd [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TEST_ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj TEST_ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_normal
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TEST_ALU
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd:45]
+ERROR: [VRFC 10-1504] unit my_test ignored due to previous errors [C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd:37]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TEST_ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj TEST_ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_normal
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TEST_ALU
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd:45]
+ERROR: [VRFC 10-1504] unit my_test ignored due to previous errors [C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd:37]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/Update_and_code/alu_tb.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xvhdl.log' file for more information.
+remove_files -fileset sim_1 C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_tb.vhd
+update_compile_order -fileset sim_1
+set_property top thirtytwobit_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch MY_STRUCTURE [get_filesets sim_1]
+set_property top_file C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sources_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'thirtytwobit_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj thirtytwobit_adder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/VHDL_examples/fourbit_adder_vhdl/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity thirtytwobit_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sources_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity thirtytwobit_adder
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto bff4f492abe44009a3606ac3cdc5493a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot thirtytwobit_adder_behav xil_defaultlib.thirtytwobit_adder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture my_dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture my_structure of entity xil_defaultlib.thirtytwobit_adder
+Built simulation snapshot thirtytwobit_adder_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav/xsim.dir/thirtytwobit_adder_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 21 07:20:23 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "thirtytwobit_adder_behav -key {Behavioral:sim_1:Functional:thirtytwobit_adder} -tclbatch {thirtytwobit_adder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source thirtytwobit_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'thirtytwobit_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 812.645 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+remove_files C:/Users/Ben/Desktop/HardwareProject2/ALU_and_ADDER/ALU_and_ADDER.srcs/sources_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

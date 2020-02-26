@@ -1,0 +1,203 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 00:01:01 2016
+# Process ID: 4608
+# Current directory: C:/Users/Yatagarasu/registerFile
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2884 C:\Users\Yatagarasu\registerFile\registerFile.xpr
+# Log file: C:/Users/Yatagarasu/registerFile/vivado.log
+# Journal file: C:/Users/Yatagarasu/registerFile\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Yatagarasu/registerFile/registerFile.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 689.445 ; gain = 132.813
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 998.922 ; gain = 265.430
+write_schematic -format pdf -orientation portrait E:/registerFile.pdf
+E:/registerFile.pdf
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_design
+close_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 1503.941 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd" into library xil_defaultlib [C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd:1]
+[Thu Apr 21 02:38:10 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1503.941 ; gain = 0.000
+add_files -fileset constrs_1 -norecurse C:/Users/Yatagarasu/Documents/Basys3_Master.xdc
+import_files -fileset constrs_1 C:/Users/Yatagarasu/Documents/Basys3_Master.xdc
+set_property target_constrs_file C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc [current_fileset -constrset]
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1503.941 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd" into library xil_defaultlib [C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd:1]
+[Thu Apr 21 03:42:07 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1503.941 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command.
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_2
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_design
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd" into library xil_defaultlib [C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd:1]
+[Thu Apr 21 03:49:08 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1/runme.log
+remove_files -fileset constrs_1 C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd" into library xil_defaultlib [C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd:1]
+[Thu Apr 21 03:55:07 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Yatagarasu/registerFile/registerFile.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'fileRegister_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Yatagarasu/registerFile/registerFile.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj fileRegister_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sources_1/new/fileRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fileRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yatagarasu/registerFile/registerFile.srcs/sim_1/new/fileRegister_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fileRegister_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yatagarasu/registerFile/registerFile.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 3ba87a0deb56408fb50f45d2c7515f01 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fileRegister_tb_behav xil_defaultlib.fileRegister_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture fileregisterarch of entity xil_defaultlib.fileRegister [fileregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.fileregister_tb
+Built simulation snapshot fileRegister_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Yatagarasu/registerFile/registerFile.sim/sim_1/behav/xsim.dir/fileRegister_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 21 04:49:32 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1511.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yatagarasu/registerFile/registerFile.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fileRegister_tb_behav -key {Behavioral:sim_1:Functional:fileRegister_tb} -tclbatch {fileRegister_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source fileRegister_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1511.242 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fileRegister_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 1511.242 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1511.242 ; gain = 0.000
+close_design
+close_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:33 . Memory (MB): peak = 1511.242 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1511.242 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1511.242 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -datasheet -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 05:30:58 2016...

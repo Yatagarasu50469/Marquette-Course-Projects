@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd"
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd"
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd"
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd"
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd"
+vhdl xil_defaultlib  "../../../ALU_and_ADDER.srcs/sim_1/imports/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level_tb.vhd"
+
+# Do not sort compile order
+nosort

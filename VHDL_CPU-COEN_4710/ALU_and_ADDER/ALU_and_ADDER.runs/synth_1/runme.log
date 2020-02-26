@@ -1,0 +1,1685 @@
+
+*** Running vivado
+    with args -log alu_top_level.vds -m64 -mode batch -messageDb vivado.pb -notrace -source alu_top_level.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source alu_top_level.tcl -notrace
+Command: synth_design -top alu_top_level -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 257.977 ; gain = 86.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu_top_level' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32bit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:34' bound to instance 'arithmeticUnit' of component 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem0' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'alu_normal' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+WARNING: [Synth 8-614] signal 'Less' is read in the process but is not in the sensitivity list [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'alu_normal' (1#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem1' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:113]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem2' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:114]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem3' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:115]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem4' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:116]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem5' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:117]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem6' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:118]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem7' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:119]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem8' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:120]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem9' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:121]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem10' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:122]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem11' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:123]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem12' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:124]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem13' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:125]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem14' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:126]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem15' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:127]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem16' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:128]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem17' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:129]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem18' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:130]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem19' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:131]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem20' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:132]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem21' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:133]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem22' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:134]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem23' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:135]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem24' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:136]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem25' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:137]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem26' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:138]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem27' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:139]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem28' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:140]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem29' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:141]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem30' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:142]
+INFO: [Synth 8-3491] module 'alu_msb' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:34' bound to instance 'alu_elem31_msb' of component 'ALU_MSB' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'alu_msb' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_msb' (2#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_32bit' (3#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:34' bound to instance 'logicUnit' of component 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (4#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'alu_top_level' (5#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 295.324 ; gain = 123.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.324 ; gain = 123.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.324 ; gain = 123.957
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:131]
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:108]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'w_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'v_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:61]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 318.621 ; gain = 147.254
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   3 Input     32 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 145   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alu_top_level 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 12    
+Module alu_normal 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module alu_msb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module alu_32bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module logic_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   3 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 417.770 ; gain = 246.402
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 419.020 ; gain = 247.652
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 419.020 ; gain = 247.652
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |    20|
+|3     |LUT3 |    40|
+|4     |LUT4 |    78|
+|5     |LUT5 |    77|
+|6     |LUT6 |   181|
+|7     |LD   |   162|
+|8     |LDC  |    30|
+|9     |IBUF |    75|
+|10    |OBUF |    35|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |   699|
+|2     |  logicUnit |logic_unit |   389|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 470.672 ; gain = 282.453
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 470.672 ; gain = 299.305
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 267 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 192 instances were transformed.
+  LD => LDCE: 162 instances
+  LDC => LDCE: 30 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 507.582 ; gain = 319.363
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 507.582 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 03:18:05 2016...
+
+*** Running vivado
+    with args -log alu_top_level.vds -m64 -mode batch -messageDb vivado.pb -notrace -source alu_top_level.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source alu_top_level.tcl -notrace
+Command: synth_design -top alu_top_level -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 258.668 ; gain = 87.172
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu_top_level' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32bit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:34' bound to instance 'arithmeticUnit' of component 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem0' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'alu_normal' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+WARNING: [Synth 8-614] signal 'Less' is read in the process but is not in the sensitivity list [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'alu_normal' (1#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem1' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:113]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem2' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:114]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem3' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:115]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem4' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:116]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem5' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:117]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem6' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:118]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem7' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:119]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem8' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:120]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem9' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:121]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem10' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:122]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem11' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:123]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem12' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:124]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem13' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:125]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem14' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:126]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem15' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:127]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem16' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:128]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem17' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:129]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem18' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:130]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem19' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:131]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem20' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:132]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem21' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:133]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem22' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:134]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem23' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:135]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem24' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:136]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem25' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:137]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem26' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:138]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem27' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:139]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem28' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:140]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem29' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:141]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem30' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:142]
+INFO: [Synth 8-3491] module 'alu_msb' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:34' bound to instance 'alu_elem31_msb' of component 'ALU_MSB' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'alu_msb' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_msb' (2#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_32bit' (3#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:34' bound to instance 'logicUnit' of component 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (4#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'alu_top_level' (5#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 295.043 ; gain = 123.547
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 295.043 ; gain = 123.547
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'swt[0]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[0]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[1]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[1]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[2]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[2]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[3]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[3]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[4]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[4]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[5]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[5]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[6]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[6]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[7]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'swt[7]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:298]
+INFO: [Constraints 18-632] set_output_delay: No clock object specified, the clocks will be automatically identified [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc:299]
+Finished Parsing XDC File [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 584.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:131]
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:108]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'w_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'v_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:61]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   3 Input     32 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 145   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alu_top_level 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 12    
+Module alu_normal 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module alu_msb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module alu_32bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module logic_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   3 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 584.148 ; gain = 412.652
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 584.148 ; gain = 412.652
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 584.148 ; gain = 412.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 591.832 ; gain = 420.336
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |    20|
+|3     |LUT3 |    40|
+|4     |LUT4 |    78|
+|5     |LUT5 |    77|
+|6     |LUT6 |   181|
+|7     |LD   |   162|
+|8     |LDC  |    30|
+|9     |IBUF |    75|
+|10    |OBUF |    35|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |   699|
+|2     |  logicUnit |logic_unit |   389|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 420.336
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:47 . Memory (MB): peak = 591.832 ; gain = 114.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 591.832 ; gain = 420.336
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 267 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 192 instances were transformed.
+  LD => LDCE: 162 instances
+  LDC => LDCE: 30 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 39 Warnings, 32 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 591.832 ; gain = 403.738
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 591.832 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 03:38:27 2016...
+
+*** Running vivado
+    with args -log alu_top_level.vds -m64 -mode batch -messageDb vivado.pb -notrace -source alu_top_level.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source alu_top_level.tcl -notrace
+Command: synth_design -top alu_top_level -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 258.781 ; gain = 86.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu_top_level' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32bit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:34' bound to instance 'arithmeticUnit' of component 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem0' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'alu_normal' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+WARNING: [Synth 8-614] signal 'Less' is read in the process but is not in the sensitivity list [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'alu_normal' (1#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem1' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:113]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem2' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:114]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem3' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:115]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem4' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:116]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem5' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:117]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem6' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:118]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem7' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:119]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem8' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:120]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem9' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:121]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem10' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:122]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem11' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:123]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem12' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:124]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem13' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:125]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem14' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:126]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem15' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:127]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem16' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:128]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem17' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:129]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem18' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:130]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem19' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:131]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem20' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:132]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem21' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:133]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem22' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:134]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem23' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:135]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem24' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:136]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem25' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:137]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem26' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:138]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem27' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:139]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem28' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:140]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem29' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:141]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem30' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:142]
+INFO: [Synth 8-3491] module 'alu_msb' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:34' bound to instance 'alu_elem31_msb' of component 'ALU_MSB' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'alu_msb' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_msb' (2#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_32bit' (3#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:34' bound to instance 'logicUnit' of component 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (4#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'alu_top_level' (5#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.258 ; gain = 123.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.258 ; gain = 123.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.258 ; gain = 123.195
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:131]
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:108]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'w_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'v_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:61]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 316.211 ; gain = 144.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   3 Input     32 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 145   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alu_top_level 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 12    
+Module alu_normal 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module alu_msb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module alu_32bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module logic_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   3 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 417.633 ; gain = 245.570
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 418.891 ; gain = 246.828
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 418.891 ; gain = 246.828
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 470.348 ; gain = 298.285
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 470.348 ; gain = 298.285
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |    20|
+|3     |LUT3 |    40|
+|4     |LUT4 |    78|
+|5     |LUT5 |    77|
+|6     |LUT6 |   181|
+|7     |LD   |   162|
+|8     |LDC  |    30|
+|9     |IBUF |    75|
+|10    |OBUF |    35|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |   699|
+|2     |  logicUnit |logic_unit |   389|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 470.348 ; gain = 282.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 470.348 ; gain = 298.285
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 267 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 192 instances were transformed.
+  LD => LDCE: 162 instances
+  LDC => LDCE: 30 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 507.605 ; gain = 319.887
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 507.605 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 03:53:18 2016...
+
+*** Running vivado
+    with args -log alu_top_level.vds -m64 -mode batch -messageDb vivado.pb -notrace -source alu_top_level.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source alu_top_level.tcl -notrace
+Command: synth_design -top alu_top_level -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 258.039 ; gain = 86.234
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu_top_level' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32bit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:34' bound to instance 'arithmeticUnit' of component 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'alu_32bit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem0' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'alu_normal' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+WARNING: [Synth 8-614] signal 'Less' is read in the process but is not in the sensitivity list [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'alu_normal' (1#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:43]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem1' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:113]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem2' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:114]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem3' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:115]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem4' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:116]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem5' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:117]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem6' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:118]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem7' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:119]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem8' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:120]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem9' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:121]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem10' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:122]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem11' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:123]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem12' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:124]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem13' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:125]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem14' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:126]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem15' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:127]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem16' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:128]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem17' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:129]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem18' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:130]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem19' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:131]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem20' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:132]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem21' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:133]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem22' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:134]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem23' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:135]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem24' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:136]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem25' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:137]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem26' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:138]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem27' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:139]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem28' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:140]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem29' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:141]
+INFO: [Synth 8-3491] module 'alu_normal' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu.vhd:34' bound to instance 'alu_elem30' of component 'ALU_NORMAL' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:142]
+INFO: [Synth 8-3491] module 'alu_msb' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:34' bound to instance 'alu_elem31_msb' of component 'ALU_MSB' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'alu_msb' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_msb' (2#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_msb.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'alu_32bit' (3#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_32bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:34' bound to instance 'logicUnit' of component 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (4#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'alu_top_level' (5#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/alu_top_level.vhd:43]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.465 ; gain = 123.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.465 ; gain = 123.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.465 ; gain = 123.660
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:131]
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:108]
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'w_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'v_reg' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/logic_unit.vhd:61]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 314.680 ; gain = 142.875
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   3 Input     32 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 145   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alu_top_level 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 12    
+Module alu_normal 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module alu_msb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module alu_32bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module logic_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   3 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 414.852 ; gain = 243.047
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 416.098 ; gain = 244.293
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 416.098 ; gain = 244.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 469.941 ; gain = 298.137
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 469.941 ; gain = 298.137
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |    20|
+|3     |LUT3 |    40|
+|4     |LUT4 |    78|
+|5     |LUT5 |    77|
+|6     |LUT6 |   181|
+|7     |LD   |   162|
+|8     |LDC  |    30|
+|9     |IBUF |    75|
+|10    |OBUF |    35|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |   699|
+|2     |  logicUnit |logic_unit |   389|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 469.941 ; gain = 281.848
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 469.941 ; gain = 298.137
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 267 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 192 instances were transformed.
+  LD => LDCE: 162 instances
+  LDC => LDCE: 30 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 506.066 ; gain = 317.973
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 506.066 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 05:07:12 2016...
+
+*** Running vivado
+    with args -log thirtytwobit_adder.vds -m64 -mode batch -messageDb vivado.pb -notrace -source thirtytwobit_adder.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source thirtytwobit_adder.tcl -notrace
+Command: synth_design -top thirtytwobit_adder -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 257.945 ; gain = 86.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'thirtytwobit_adder' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:25]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder0' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:42]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder1' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:43]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder2' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:44]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder3' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:45]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder4' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:46]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder5' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:47]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder6' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:48]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder7' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:49]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder8' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:50]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder9' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:51]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder10' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:52]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder11' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:53]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder12' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:54]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder13' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:55]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder14' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:56]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder15' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:57]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder16' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:58]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder17' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:59]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder18' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:60]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder19' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:61]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder20' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:62]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder21' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:63]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder22' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:64]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder23' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:65]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder24' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:66]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder25' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:67]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder26' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:68]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder27' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:69]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder28' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:70]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder29' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:71]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder30' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:72]
+INFO: [Synth 8-637] synthesizing blackbox instance 'b_adder31' of component 'FULL_ADDER' [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'thirtytwobit_adder' (1#1) [C:/Users/Ben/Desktop/HardwareProject2/project_tutorial/project_tutorial.srcs/sim_1/new/32bit_adder.vhd:25]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 295.297 ; gain = 123.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.297 ; gain = 123.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.297 ; gain = 123.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 295.297 ; gain = 123.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 406.438 ; gain = 234.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 407.684 ; gain = 235.984
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |FULL_ADDER    |        32|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |FULL_ADDER_bbox    |     1|
+|2     |FULL_ADDER_bbox_0  |     1|
+|3     |FULL_ADDER_bbox_1  |     1|
+|4     |FULL_ADDER_bbox_10 |     1|
+|5     |FULL_ADDER_bbox_11 |     1|
+|6     |FULL_ADDER_bbox_12 |     1|
+|7     |FULL_ADDER_bbox_13 |     1|
+|8     |FULL_ADDER_bbox_14 |     1|
+|9     |FULL_ADDER_bbox_15 |     1|
+|10    |FULL_ADDER_bbox_16 |     1|
+|11    |FULL_ADDER_bbox_17 |     1|
+|12    |FULL_ADDER_bbox_18 |     1|
+|13    |FULL_ADDER_bbox_19 |     1|
+|14    |FULL_ADDER_bbox_2  |     1|
+|15    |FULL_ADDER_bbox_20 |     1|
+|16    |FULL_ADDER_bbox_21 |     1|
+|17    |FULL_ADDER_bbox_22 |     1|
+|18    |FULL_ADDER_bbox_23 |     1|
+|19    |FULL_ADDER_bbox_24 |     1|
+|20    |FULL_ADDER_bbox_25 |     1|
+|21    |FULL_ADDER_bbox_26 |     1|
+|22    |FULL_ADDER_bbox_27 |     1|
+|23    |FULL_ADDER_bbox_28 |     1|
+|24    |FULL_ADDER_bbox_29 |     1|
+|25    |FULL_ADDER_bbox_3  |     1|
+|26    |FULL_ADDER_bbox_30 |     1|
+|27    |FULL_ADDER_bbox_4  |     1|
+|28    |FULL_ADDER_bbox_5  |     1|
+|29    |FULL_ADDER_bbox_6  |     1|
+|30    |FULL_ADDER_bbox_7  |     1|
+|31    |FULL_ADDER_bbox_8  |     1|
+|32    |FULL_ADDER_bbox_9  |     1|
+|33    |IBUF               |    64|
+|34    |OBUF               |    33|
++------+-------------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   161|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 407.684 ; gain = 219.324
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 407.684 ; gain = 235.984
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 472.797 ; gain = 284.438
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 472.797 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 06:12:05 2016...

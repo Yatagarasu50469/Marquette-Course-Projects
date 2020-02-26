@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 07:24:03 2016
+# Process ID: 2580
+# Current directory: E:/COEN4710_PROJECT2/ALU_and_ADDER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5096 E:\COEN4710_PROJECT2\ALU_and_ADDER\ALU_and_ADDER.xpr
+# Log file: E:/COEN4710_PROJECT2/ALU_and_ADDER/vivado.log
+# Journal file: E:/COEN4710_PROJECT2/ALU_and_ADDER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/COEN4710_PROJECT2/ALU_and_ADDER/ALU_and_ADDER.xpr
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TEST_TOP_LEVEL [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source TEST_TOP_LEVEL.tcl
+update_compile_order -fileset sim_1
+close_sim

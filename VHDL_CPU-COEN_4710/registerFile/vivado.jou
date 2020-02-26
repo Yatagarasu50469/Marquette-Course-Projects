@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 21 00:01:01 2016
+# Process ID: 4608
+# Current directory: C:/Users/Yatagarasu/registerFile
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2884 C:\Users\Yatagarasu\registerFile\registerFile.xpr
+# Log file: C:/Users/Yatagarasu/registerFile/vivado.log
+# Journal file: C:/Users/Yatagarasu/registerFile\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Yatagarasu/registerFile/registerFile.xpr
+open_run synth_1 -name synth_1
+write_schematic -format pdf -orientation portrait E:/registerFile.pdf
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+close_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+add_files -fileset constrs_1 -norecurse C:/Users/Yatagarasu/Documents/Basys3_Master.xdc
+import_files -fileset constrs_1 C:/Users/Yatagarasu/Documents/Basys3_Master.xdc
+set_property target_constrs_file C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc [current_fileset -constrset]
+refresh_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+refresh_design
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_2
+close_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+remove_files -fileset constrs_1 C:/Users/Yatagarasu/registerFile/registerFile.srcs/constrs_1/imports/Documents/Basys3_Master.xdc
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source fileRegister_tb.tcl
+open_run synth_1 -name synth_1
+close_design
+close_sim
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -datasheet -name timing_1
+close_design
