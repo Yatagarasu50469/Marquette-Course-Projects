@@ -1,0 +1,47 @@
+#lang plai
+
+;Define WAE (with arithmetic expressions) in abstract trees
+(define-type WAE ;Define with arithmetic expression
+  [num (n number?)] 
+  [add (lhs WAE?) (rhs WAE?)] 
+  [sub (lhs WAE?) (rhs WAE?)]
+  [mult (lhs WAE?) (rhs WAE?)] 
+  [div (lhs WAE?) (rhs WAE?)]
+  [minus (lhs WAE?)]
+  ;[with (name symbol?) (named-expr WAE?) (body WAE?)]
+  ;[id (name symbol?)]
+)
+
+;Define parse of s-expressions into WAEs
+(define (parse sexp)
+  (cond
+    [(null? sexp) '()]
+    [(number? sexp) (num sexp)]
+    [(list? sexp)
+     (case (first sexp)
+       [(+) (add (parse (second sexp)) (parse (third sexp)))]
+       [(*) (mult (parse (second sexp)) (parse (third sexp)))]
+       [(/) (div (parse (second sexp)) (parse (third sexp)))]
+       [(-) (cond
+              [(eq? (length sexp) 2) (minus (parse (second sexp)))]
+              [(eq? (length sexp) 3) (sub (parse (second sexp)) (parse (third sexp)))]
+            )
+       ]
+     )
+    ]
+  )
+)
+
+;Define calculation of WAE expressions
+(define (calc expr)
+  (type-case WAE expr
+    [num (n) n]
+    [add (a b) (+ (calc a) (calc b))]
+    [minus (a) (- (calc a))]
+    [sub (a b) (- (calc a) (calc b))]
+    [mult (a b) (* (calc a) (calc b))] 
+    [div (a b) (quotient (calc a) (calc b))] 
+    ;[with ]
+    ;[id ]
+   )
+)

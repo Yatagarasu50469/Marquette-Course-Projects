@@ -1,0 +1,113 @@
+#|
+================================================================
+Program: COSC_3410_Assignment_1_Problem_3
+Version: 1.0
+Author: David Helminiak
+Date Created: 31 August 2018
+Date Last Modified: 31 August 2018
+================================================================
+
+==========================DESCRIPTION===========================
+Takes an atom and list of pairs, returning the second pair
+parameter for which the atom matches the first pair parameter.
+Program returns 'UNKNOWN' if the atom is not found in any pairs.
+================================================================
+
+===========================SIGNATURE============================
+lookup atom list --> atom
+================================================================
+
+=============================CASES==============================
+Input: A search parameter atom and empty list
+
+Output: 'UNKNOWN
+
+----------------------------------------------------------------
+Input: A search parameter atom with list whose first pair's
+first half matches the search parameter
+
+Output: The second half of the first pair
+
+----------------------------------------------------------------
+Input: A search parameter atom with list whose first pair's
+first half does not match the search parameter
+
+Output: Result of the function called for the remaining pairs
+within the list
+================================================================
+
+============================SAMPLE RUN==========================
+ADDITIONAL TESTING
+>(lookup '2 '())
+'UNKNOWN
+>(lookup '2 '(2 worlds))
+'(worlds)
+>(lookup '1 '((2 worlds) (1 family)))
+'(family)
+>(lookup '1 '((2 worlds) (1 family) (0 errors))
+'(family)
+
+EXAMPLE TESTING
+>(lookup 'b '((a 34)(b 77)(g 6)) )
+'(77)
+>(lookup 'a '((a 'apple')(b 'boy')(g 'gate')) )
+'("apple")
+>(lookup 'c '((a 34)(b 77)(g 6)) )
+'UNKNOWN
+>(lookup 'food '((lodging 250.0)(gas 98.60)(food 120.44)) )
+'(120.44)
+>(lookup 15 '((12 (2 3)) (15 (3 5)) (30 (2 3 5)) (99 (3 11))) )
+'((3 5))
+>(lookup 'a '() )
+'UNKNOWN
+================================================================
+|#
+
+;============================PROGRAM============================
+#lang racket
+
+(define lookup ;Define the lookup function
+  (lambda (searchParam pairList) ;Expect an atom and list as inputs
+    (cond ;Set conditional statements
+      [(null? pairList) 'UNKNOWN] ;If the pair list is empty, return 'UNKNOWN'
+      [(eq? (car (car pairList)) searchParam) (car (cdr (car pairList)))] ;If the first param. of the first pair matches, return the second half of the pair
+      [else (lookup searchParam (cdr pairList))] ;In all other cases lookup the param. in all other pairs in the pairList
+    )
+  )
+)
+
+;=======================ADDITIONAL TESTING======================
+(printf "\nADDITIONAL TESTING\n")
+
+(printf ">(lookup '2 '())\n")
+(lookup '2 '())
+
+(printf ">(lookup '2 '(2 worlds))\n")
+(lookup '2 '((2 worlds)))
+
+(printf ">(lookup '1 '((2 worlds) (1 family)))\n")
+(lookup '1 '((2 worlds) (1 family)))
+
+(printf ">(lookup '1 '((2 worlds) (1 family) (0 errors))\n")
+(lookup '1 '((2 worlds) (1 family) (0 errors)))
+
+;========================EXAMPLE TESTING========================
+(printf "\nEXAMPLE TESTING\n")
+
+(printf ">(lookup 'b '((a 34)(b 77)(g 6)) )\n")
+(lookup 'b '((a 34)(b 77)(g 6)) )
+
+(printf ">(lookup 'a '((a 'apple')(b 'boy')(g 'gate')) )\n")
+(lookup 'a '((a "apple")(b "boy")(g "gate")) )
+
+(printf ">(lookup 'c '((a 34)(b 77)(g 6)) )\n")
+(lookup 'c '((a 34)(b 77)(g 6)) )
+
+(printf ">(lookup 'food '((lodging 250.0)(gas 98.60)(food 120.44)) )\n")
+(lookup 'food '((lodging 250.0)(gas 98.60)(food 120.44)) )
+
+(printf ">(lookup 15 '((12 (2 3)) (15 (3 5)) (30 (2 3 5)) (99 (3 11))) )\n")
+(lookup 15 '((12 (2 3)) (15 (3 5)) (30 (2 3 5)) (99 (3 11))) )
+
+(printf ">(lookup 'a '() )\n")
+(lookup 'a '() )

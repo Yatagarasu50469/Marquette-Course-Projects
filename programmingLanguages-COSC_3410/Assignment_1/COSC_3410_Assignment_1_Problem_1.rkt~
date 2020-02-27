@@ -1,0 +1,18 @@
+#|
+
+   Program: COSC 3410 - Assignment 1 Problem 1
+   Version: 1.0
+   Author: David Helminiak
+   Date Created: 31 August 2018
+   Date Last Modified: 31 August 2018
+================================================
+Signature:
+member?: atom list --> boolean
+================================================
+Cases:
+   Input           Expected Output
+   
+================================================
+|#
+
+#lang racket
