@@ -18,6 +18,7 @@ os.mkdir(savefile)
 
 images = os.listdir(readfile)
 i = int(0)
+copy = []
 while(i<len(images)):
     Iimage = str(images[i]);
     keep = True
