@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin
+template="none.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="Doc_title" -->
+<meta name="description" content="Website of the Mathematics, Statistics and Computer Science department, a part of The Helen Way Klingler College of Arts and Sciences at Marquette University">
+<title>Mathematics, Statistics and Computer Science | Marquette University</title>
+<style type="text/css">
+<!--
+.style4 {font-size: 12px}
+-->
+</style>
+<style type="text/css">
+<!--
+.style5 {font-size: 11px}
+-->
+</style>
+<style type="text/css">
+<!--
+.style9 {font-family: Verdana, Arial, Helvetica, sans-serif}
+-->
+</style>
+<style type="text/css">
+<!--
+.style10 {color: #F7B900}
+-->
+</style>
+<style type="text/css">
+<!--
+.style12 {color: #F7B900; font-weight: bold; }
+-->
+</style>
+<!-- InstanceEndEditable -->
+<!--Required style sheets-->
+<link rel="stylesheet" type="text/css" href="/_globalcss/headerstyles2.css" title="main"/>
+<link rel="stylesheet" type="text/css" href="/_globalcss/footerstyles2.css" title="main"/>
+<link rel="stylesheet" type="text/css" href="_css/_landingpage_A.css" title="main"/>
+<!--End required style sheets-->
+<!-- Yahoo developer components (top nav solution) -->
+<!--required library-->
+<!-- Yahoo developer components  -->
+<script src="http://www.marquette.edu/_yui/build/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="http://www.marquette.edu/_yui/build/animation/animation-min.js" type="text/javascript"></script>
+<script src="_js/toggle.js" type="text/javascript"></script>
+<!--//required library-->
+
+</head>
+
+<body>
+
+<!-- Container centers all of the pages elements -->
+<div id="container">
+  <div id="mainedu_topnav_id" class="mainedu_topnav" style="padding:0px; margin:0px; text-align:left; width:760px; background: #036;">
+    <script><!--
+function eFocus(field){
+if (field.value == field.defaultValue){
+field.value ='';
+}
+field.className="BEmail searchbox";
+}
+
+function eBlur(field){
+if (field.value == ''){
+field.value = field.defaultValue;
+field.className="REmail searchbox";
+}else{
+field.className="BEmail searchbox";
+}
+}
+// --></script>
+<div id="eduMainNav" class="onwhite">
+    <div class="logo"><a href="http://www.marquette.edu/" style="border:none;"><img src="/_globalimages/blue_navbar/logo_onwhite.gif" alt="Marquette University" width="132" height="75" border="0" /></a></div>
+    <div class="utilities"><a href="http://www.marquette.edu/" class="headerlink_onwhite">WWW.MARQUETTE.EDU</a><BR><a href="http://www.marquette.edu/campuscontacts/" class="headerlink_onwhite">CAMPUS CONTACTS</a><br><a href="http://www.marquette.edu/tools/siteindex.shtml" class="headerlink_onwhite">SITE INDEX</a><BR></div>
+    <br clear="all" />
+    <div class="edunavbar">
+    <form name="gs1" method="GET" action="http://www.marquette.edu/search/q.php"><input type="hidden" name="site" value="default_collection"><input type="hidden" name="proxystylesheet" value="default_frontend"><input type="hidden" name="client" value="default_frontend"><input type="hidden" name="oe" value="UTF-8"><input type="hidden" name="ie" value="UTF-8"><input type="hidden" name="output" value="xml_no_dtd"><input type="text"  name="q" value="Search Marquette" class="searchbox REmail" onFocus="eFocus(this)" onBlur="eBlur(this)"><input type="image" src="/_globalimages/go.gif" class="gobutton" alt="Search Submit button" title="Submit your search"></form><a href="/pro_students/"><img src="/_globalimages/blue_navbar/01.gif" alt="Prospective Students" width="130" height="23" border="0"></a><a href="/cur_students/"><img src="/_globalimages/blue_navbar/02.gif" alt="Current Students" border="0"></a><a href="/alumni/"><img src="/_globalimages/blue_navbar/03.gif" alt="Alumni" width="65" height="23" border="0"></a><a href="/parents/"><img src="/_globalimages/blue_navbar/04.gif" alt="Parents" width="68" height="23" border="0"></a><a href="/facstaff/"><img src="/_globalimages/blue_navbar/05.gif" alt="Faculty &amp; Staff" width="105" height="23" border="0"></a><a href="/omc/newscenter/"><img src="/_globalimages/blue_navbar/06.gif" alt="Media" width="53" height="23" border="0"></a></div>
+	<div class="edunavbar"><a href="/student/"><img src="/_globalimages/blue_navbar/07.gif" alt="Admissions" width="84" height="23" border="0"></a><a href="/programs/"><img src="/_globalimages/blue_navbar/08.gif" alt="Programs" width="131" height="23" border="0"></a><a href="/about/"><img src="/_globalimages/blue_navbar/09.gif" alt="About" width="118" height="23" border="0"></a><a href="/research/"><img src="/_globalimages/blue_navbar/10.gif" alt="Research & Scholarship" width="151" height="23" border="0"></a><a href="http://www.gomarquette.com"><img src="/_globalimages/blue_navbar/11.gif" alt="Athletics" width="80" height="23" border="0"></a><a href="/hr/"><img src="/_globalimages/blue_navbar/12.gif" alt="Careers" width="74" height="23" border="0"></a><a href="/giving/"><img src="/_globalimages/blue_navbar/13.gif" alt="Giving to Marquette" width="122" height="23" border="0"></a></div>
+</div>
+
+	
+
+  </div>
+  <!-- ended top edu nav -->
+  <!-- top banner -->
+  <!-- InstanceBeginEditable name="ContentWindow" -->
+  <div id="bannertop">
+    <div id="banner_leftcol" >
+      <!--End global navigation  -->
+      <!-- Begin TOP CONTENT section -->
+    <h3><a href="/as">Klingler College of Arts and Sciences</a></h3>
+      <h1 style="margin-top:35px;">&nbsp;</h1>
+      <h2 style="margin-top: 0pt;"><a href="about.shtml">ABOUT US</a></h2>
+      <h2 style="margin-top: 0pt;"><a href="undergrad.shtml">UNDERGRADUATE STUDIES</a></h2>
+      <h2 style="margin-top: 0pt;"><a href="grad.shtml">GRADUATE STUDIES</a></h2>
+      <h2 style="margin-top: 0pt; margin-bottom: 0;"><a href="facstaff.shtml">FACULTY AND STAFF</a></h2>
+      <h2 style="margin-top: 0; margin-bottom: 0;"><a href="resources.shtml">STUDENT RESOURCES</a></h2>
+    </div>
+
+    <!-- This is the right side rectangle that houses the main menu to the site -->
+    <div id="banner_rightcol"> <a href="javascript:void(0)" rel="mainedu_topnav_id,fade,20" class="toggle" id="toggleId"><img src="images/edu-tab.png" alt="Marquette.edu" border="0"/></a> </div>
+    <div id="banner_row2_left"><img src="images/2017-cs-k12-ed.jpg" alt="Cyber Security" width="130" height="90" align="right" />
+      <h2 style="margin-bottom: 0">JSONLINE.COM</h2>
+<h1 style="margin-top: 0; margin-bottom: 0;"><a href="http://www.jsonline.com/story/news/education/2017/07/19/new-wisconsin-k-12-standards-intended-spur-interest-computer-science-careers/472682001/">WI APPROVES STANDARDS FOR K-12 CS</a></h1>
+    </div>
+    <div id="banner_row2_middle"><img src="images/Calculator_V1-1038x576web.jpg" alt="Samson Kiware" width="129" height="90" align="right" />
+      <h2 style="margin-bottom: 0">TOP FIFTY</h2>
+<h1 style="margin-top: 0; margin-bottom: 0;"><a href="https://www.glassdoor.com/List/Best-Jobs-in-America-LST_KQ0,20.htm">BEST JOBS IN AMERICA 2017</a></h1>
+    </div>
+    <div id="banner_row2_right">
+      <p style="margin-top: 0;"><img src="images/DataScience1.jpg" alt="Data Science" width="130" height="90" align="right" /></p>
+      <h2 style="margin-bottom: 0;">FORBES.COM</h2>
+<h1 style="margin-top: 0; margin-bottom: 0;"><a href="https://www.forbes.com/sites/louiscolumbus/2017/05/13/ibm-predicts-demand-for-data-scientists-will-soar-28-by-2020/amp/">DEMAND FOR DATA SCI. BY 2020</a></h1>
+    </div>
+  </div>
+<br class="float_clear">
+<p style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+<div id="left_column">
+  <p class="style12" style="margin-top: 0;">NEWS  </p>
+  <h1 style="margin-bottom: 0;">NSF S-STEM</h1>
+  <p style="margin-top:0;"><span style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;">MSC</span>S team awarded $1 million NSF grant for student scholarships and development of a model for career change into computing.<br />
+    <a href="nsfs-stem.shtml">Read More</a><br />
+  </p>
+  <h1 style="MARGIN-BOTTOM: 0px"><span style="MARGIN-TOP: 0px">Dr. John </span>Engbers</h1>
+  <p style="MARGIN-TOP: 0px"><span 
+style="FONT-SIZE: 15px; FONT-FAMILY: Times New Roman"><span 
+class="style9 style5" style="COLOR: #000000"><a 
+href="facstaff-engbers.shtml">Dr. John Engbers</a> has received a five-year, $42,000 collaboration grant for mathematicians from the Simons Foundation for his project entitled &quot;Investigating Graph Colorings.&quot;</span></span><span 
+style="FONT-SIZE: 15px; FONT-FAMILY: Times New Roman"><span 
+class="style9 style5" style="COLOR: #000000"><br />
+  </span></span><a 
+href="https://www.simonsfoundation.org/funding/funding-opportunities/mathematics-physical-sciences/collaboration-grants-for-mathematicians/">Read 
+    More</a></p>
+  <h1 style="margin-bottom: 0;"><span style="margin-top: 0;">Dr. Debbie Perouli</span></h1>
+  <p style="margin-top:0;"><span style="font-family:Times New Roman;font-size:15px;"><span class="style9 style5" style="color:#000000;"><a href="facstaff-perouli.shtml">Dr. Debbie Perouli</a> has received a two-year, $175,000 award from the National Science </span></span>Foundation (NSF) through the Computer and Information Science and Engineering (CISE) Research Initiation Initiative (CRII)  on securing social robots<span style="font-family:Times New Roman;font-size:15px;"><span class="style9 style5" style="color:#000000;">.<br />
+  </span></span><a href="PerouliNSF.shtml">Read More</a></p>
+  <h1 style="margin-bottom: 0;">Dr. Marta Magiera</h1>
+<p style="margin-top: 0; margin-bottom: 0;"> <a href="facstaff-magiera.shtml">Dr. Marta Magiera</a> received an Early Career Development award (CAREER) from the National Science Foundation for her project entitled &quot;CAREER: L-MAP: Pre-service Middle School Teachers' Knowledge of Mathematical Argumentation and Proving.&quot; This five-year, $791,854 project will examine how middle school pre-service teachers' knowledge of mathematical argumentation and proving develops in teacher preparation programs.<br />
+  <a href="MagieraCAREERaward.shtml">Read More</a></p>
+</div>
+<div id="mid_column">
+  <h1 align="left" class="style9 style5" style="margin-top: 0;"><strong><span class="style5 style9 style10">ANNOUNCEMENTS</span></strong></h1>
+  <h1><a href="math-facultyposition-2018.shtml">Tenure track position in <strong>computational mathematics </strong>available for Fall 2018</a>.</h1>
+  <h1><a href="comp-facultyposition-2018.shtml">Tenure track position in <strong>computer science</strong> available for Fall 2018</a>.</h1>
+  <h1> <a href="https://employment.marquette.edu/postings/8781">Position for Director of <strong>Ethically Centered Data Science</strong> available for Spring 2018</a></h1>
+  <h1><a href="documents/SpatialDataAnalyticsWorkshopFlyer_000.pdf">Spatial data analytics workshop to be held January 10-12, 2018.  </a></h1>
+  <h1><a href="https://www.biztimes.com/2017/industries/technology/get-ready-for-ai/">Thomas Kaczmarek interviewed by BizTimes on artificial intelligence.</a></h1>
+  <h1><a href="http://www.tmj4.com/news/i-team/bogus-background-check-could-be-costing-you-money">Shion Guha interviewed by TMJ4 on &quot;bogus background check.&quot;</a></h1>
+  <h1>Fall 2017 dissertation defenses: <a href="documents/AhsanPHDFALL2017_000.pdf">Golam Ahsan (October 27)</a>.</h1>
+  <h1><a href="http://bigdata.ieee.org/publications/ieee-talks-big-data/36-ieee-talks-big-data-reisman-ahamed">Sheikh Iqbal Ahamed interviewed by IEEE Talks on Big Data</a>.</h1>
+  <h1><a href="grad-applied-statistics.shtml">MSCS launched a <strong>MS in Applied Statistics</strong> in Fall 2017.</a></h1>
+  <h1><a href="undergrad-programs.shtml#datascience">MSCS launched a BS in<strong> Data Science</strong> and an interdisciplinary BS in  <strong>Bioinformatics</strong>.</a></h1>
+  <h1><a href="Specializations.shtml">MS in Computing&nbsp;announced new specializations: Information Assurance &amp; Cyber Defense and Big Data &amp; Data Analytics.</a>  </h1>
+  <h1>&nbsp;</h1>
+</div>
+<div id="fright_column">
+  <h1 style="margin-top: 0; margin-bottom: 0;"><span class="style4">QUICK LINKS</span></h1>
+    <ul style="margin-top: 0; margin-bottom: 0;">
+      <li><a href="facstaff-fac-directory.shtml">Faculty directory</a></li>
+      <li><a href="/mscs/facstaff-research-labs.shtml">Research laboratories</a></li>
+      <li><a href="facstaff-ta-ra.shtml">Graduate assistants</a></li>
+      <li> <a href="facstaff-staff.shtml">Staff directory</a></li>
+      <li><a href="facstaff-awards.shtml">Faculty awards/grants</a></li>
+      <li><a href="documents/newsletter2016_000.pdf">MSCS Newsletter</a></li>
+      <li><a href="../mucentral/registrar/snapshot/fall17/index.shtml">Schedule - Fall 2017</a></li>
+      <li><a href="../mucentral/registrar/snapshot/spring18/index.shtml">Schedule - Spring 2018</a></li>
+      <li> <a href="http://www.mscs.mu.edu/webmail">MSCS Webmail</a></li>
+      <li><a href="https://www.mscs.mu.edu/mscs/mymscs/index.html">My MSCS Login</a></li>
+      <li><a href="alumni.shtml">Alumni</a></li>
+      <li> <a href="contact.shtml">Contact MSCS</a></li>
+      <li><a href="resources-colloquium.shtml">Colloquium</a></li>
+    </ul>
+<div style=" float: right; padding: 0 15px 0 0; width:220px;">
+  <p><a href="support-mscs-department.shtml" style="border-bottom:none;"><img src="/mscs/images/give-today-mscs.jpg" alt="Giving to MSCS" border="0"  /></a></p>
+  <p style="margin-bottom: 0;"><a href="/mscs/support-mscs-department.shtml">Help support the Department of Mathematics, Statistics and Computer Science at Marquette</a></p>
+</div>
+<p style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+  </div>
+  <!-- InstanceEndEditable -->
+  <!--End MID PAGE CONTENT -->
+
+  <br class="float_clear"/>
+  <!--Begin menu row 2-->
+  <br/>
+  <br/>
+  <!--End menu row 2-->
+
+  <br class="float_clear"/>
+  <br class="float_clear"/>
+  <br class="float_clear"/>
+  <!-- End Lower content area -->
+
+  <!--Required: Include for global footer-->
+  <div id="footer">
+    
+<div class="footer_left"><img src="/_globalimages/footer_bethedifference.gif" alt="Marquette University. Be The Difference" / ></div>
+<div class="footer_right" align="right" style="vertical-align:top;margin:2px 4px 0px 0px; color:#000;">&copy; 2018 Marquette University</div>
+
+<br class="float_clear">
+
+<br class="float_clear">
+
+
+<br class="float_clear">
+<br class="float_clear">
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-74627-6");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+  </div>
+  <!--End global footer-->
+
+</div>
+<!--End container for page elements-->
+
+</body>
+<!-- InstanceEnd -->
+</html>
+
